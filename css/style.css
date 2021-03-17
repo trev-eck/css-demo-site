@@ -1,0 +1,24 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: cornflowerblue;
+}
+.nav-list { 
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    float: right;
+
+}
+.head-shot {
+    display: block;
+    position: relative;
+    padding: 10px;
+    border: 10px solid red;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+.head-caption {

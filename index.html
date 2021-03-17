@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trevor Eckberg's Portfolio</title>
 </head>
 <body>
-    <h1>Trevor's Portfolio</h1>
+    <header class="header">
+        <h1>Trevor's Portfolio</h1>
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="https://github.com/trev-eck/" target="_blank">Github</a></li>
+                <li class="nav-list"><a href="#">Portfolio Coming Soon</a></li>
+                <li class="nav-list"><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <br>
+            <figure>
+            <img class="head-shot" src="./head-shot.jpg" alt="Trevor's Head Shot">
+            <h2 class="head-caption">Trevor Eckberg Circa 2017</h2>
+            
+            </figure>
+        </section>
+
+        <section id="contact-form" class="contact-form">
+
+            <h3>Get in Contact with me!</h3>
+            <form>
+                <label for="full-name">Your Name</label>
+                <input type="text" id="full-name" name="full-name">
+                <br>
+                <label for="email-address">Your Email</label>
+                <input type="email" id="email-address" name="email-address">
+                <br>
+                <button class="submit-button" type="button">Submit</button>
+
+            </form>
+
+        </section>
+    </main>
+
+
 </body>
 </html>
